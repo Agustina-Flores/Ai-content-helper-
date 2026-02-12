@@ -92,13 +92,18 @@ button {
   height: 48px;
 }
 pre {
- background: linear-gradient(
+background: linear-gradient(
     to bottom right,
     #020617,
     #020617cc
   );
-   font-size: 0.95rem;
+
+  font-size: 0.95rem;
   line-height: 1.5;
+
+  white-space: pre-wrap;       
+  word-wrap: break-word;       
+  overflow-wrap: break-word;   
 }
 
 @keyframes fadeUp {
@@ -114,4 +119,9 @@ pre {
 
 .result {
   animation: fadeUp 0.35s ease-out;
+}
+.demo-warning {
+  font-size: 0.8rem;
+  color: #fbbf24;
+  margin-top: 6px;
 }
