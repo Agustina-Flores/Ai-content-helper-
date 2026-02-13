@@ -125,3 +125,9 @@ background: linear-gradient(
   color: #fbbf24;
   margin-top: 6px;
 }
+
+.error{
+   color: #ca0d0d;
+   margin-top: 6px;
+   font-size: 0.9rem;
+}

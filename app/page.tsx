@@ -1,6 +1,4 @@
-"use client";
 
-import { useState } from "react";
 import TextForm from "./components/TextForm";
  
 export default function Home() {
