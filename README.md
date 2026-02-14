@@ -2,13 +2,15 @@
 
 ## Aplicación web que permite:
 
-- Resumir texto 
+Aplicación web desarrollada con Next.js que permite procesar texto utilizando inteligencia artificial.
 
-- Mejorar redacción 
+Incluye funciones de:
 
-- Generar ideas creativas 
+- Resumir texto  
+- Mejorar redacción  
+- Generar ideas creativas  
 
-Incluye integración con OpenAI y un modo demo automático cuando la API no está disponible. 
+Cuenta con integración a OpenAI y un modo demo automático cuando la API no está disponible.
 
 ## 📸 Vista previa
 
@@ -19,6 +21,15 @@ Incluye integración con OpenAI y un modo demo automático cuando la API no est�
 ### Resultado generado
 
 ![Resultado](./public/screenshots/result-demo.png)
+
+## ✨ Características
+
+- Integración con OpenAI API
+- Modo demo automático ante errores o límite de cuota
+- Límite de caracteres en el input
+- Prevención de múltiples clicks
+- Scroll automático al resultado
+- Manejo de estados de carga (loading state)
 
 ## 🚀 Tecnologías utilizadas
  
@@ -38,7 +49,6 @@ Incluye integración con OpenAI y un modo demo automático cuando la API no est�
 
 git clone <URL_DEL_REPO>
 
-
 ### 2. Instalar dependencias:
 
 npm install
@@ -55,7 +65,6 @@ la aplicación funcionará automáticamente en modo demo.
 ### 4. Ejecutar el servidor:
 
 npm run dev
-
 
 ### 5. La aplicación estará disponible en:
 
