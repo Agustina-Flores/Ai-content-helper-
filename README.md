@@ -2,28 +2,35 @@
 
 ## Aplicación web que permite:
 
-<ul>
-<li>Resumir texto</li>
+- Resumir texto 
 
-<li>Mejorar redacción</li>
+- Mejorar redacción 
 
-<li>Generar ideas creativas</li>
-</ul>
-Incluye integración con OpenAI y un modo demo automático cuando la API no está disponible.
+- Generar ideas creativas 
+
+Incluye integración con OpenAI y un modo demo automático cuando la API no está disponible. 
+
+## 📸 Vista previa
+
+### Pantalla principal
+
+![Pantalla principal](./public/screenshots/home.png)
+
+### Resultado generado
+
+![Resultado](./public/screenshots/result-demo.png)
 
 ## 🚀 Tecnologías utilizadas
+ 
+- Next.js 
 
-<ul>
-<li>Next.js</li>
+- React 
 
-<li>React</li>
+- TypeScript 
 
-<li>TypeScript</li>
+- OpenAI API 
 
-<li>OpenAI API</li>
-
-<li>CSS</li>
-</ul>
+- CSS  
 
 ## ⚙️ Cómo correr el proyecto localmente
 
@@ -40,7 +47,9 @@ npm install
 
 OPENAI_API_KEY=tu_api_key_aqui
 
-⚠️ Si no se configura la API key o la cuota está excedida,
+Esta es la única variable de entorno requerida por la aplicación.
+
+⚠️ Si no se configura la API key o la cuota está excedida,  
 la aplicación funcionará automáticamente en modo demo.
 
 ### 4. Ejecutar el servidor:
@@ -52,12 +61,9 @@ npm run dev
 
 http://localhost:3000
 
-## 📸 Vista previa
+## 🏗️ Arquitectura
 
-### Pantalla principal
-
-![Pantalla principal](./public/screenshots/home.png)
-
-### Resultado generado
-
-![Resultado](./public/screenshots/result-demo.png)
+- Frontend en Next.js (App Router)
+- API Route para comunicación con OpenAI
+- Manejo de estados con React
+- Fallback automático en caso de error (modo demo)
