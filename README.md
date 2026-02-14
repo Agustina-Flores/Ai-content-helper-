@@ -25,7 +25,7 @@ Incluye integración con OpenAI y un modo demo automático cuando la API no est�
 <li>CSS</li>
 </ul>
 
-⚙️ Cómo correr el proyecto localmente
+## ⚙️ Cómo correr el proyecto localmente
 
 ### 1. Clonar el repositorio:
 
