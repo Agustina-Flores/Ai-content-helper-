@@ -51,3 +51,13 @@ npm run dev
 ### 5. La aplicación estará disponible en:
 
 http://localhost:3000
+
+## 📸 Vista previa
+
+### Pantalla principal
+
+![Pantalla principal](./public/screenshots/home.png)
+
+### Resultado generado
+
+![Resultado](./public/screenshots/result-demo.png)
