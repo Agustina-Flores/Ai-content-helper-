@@ -32,7 +32,7 @@ export async function POST(req: Request) {
       ideas: `Generá ideas creativas basadas en el siguiente texto:\n\n${text}`,
     };
 
-    // Si no hay API key → modo demo
+    // Si no hay API key se activa modo demo
     if (!openai) {
       return NextResponse.json({
         result: "⚠️ Modo demo activo.",
