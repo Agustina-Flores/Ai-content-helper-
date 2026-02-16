@@ -32,6 +32,13 @@ export async function POST(req: Request) {
       ideas: `Generá ideas creativas basadas en el siguiente texto:\n\n${text}`,
     };
 
+    // Si no hay API key → modo demo
+    if (!openai) {
+      return NextResponse.json({
+        result: "⚠️ Modo demo activo.",
+        demoMode: true,
+      });
+    }
 
     const completion = await openai.chat.completions.create({
       model: "gpt-4o-mini",
