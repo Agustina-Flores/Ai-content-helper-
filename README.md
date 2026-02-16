@@ -59,8 +59,7 @@ La aplicación puede utilizar la siguiente variable de entorno:
 
 OPENAI_API_KEY=tu_api_key_aqui
 
-Si no se configura la API key o la cuota está excedida,
-la aplicación funciona automáticamente en modo demo.
+La integración con OpenAI es opcional. En caso de no configurar la API key, la aplicación activa automáticamente un modo demo para garantizar su funcionamiento.
 
 ### 4. Ejecutar el servidor:
 
