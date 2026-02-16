@@ -53,14 +53,14 @@ git clone <URL_DEL_REPO>
 
 npm install
 
-### 3. Crear un archivo `.env.local` en la raíz del proyecto y agregar:
+### 3. Crear un archivo .env.local en la raíz del proyecto y agregar:
+
+La aplicación puede utilizar la siguiente variable de entorno:
 
 OPENAI_API_KEY=tu_api_key_aqui
 
-Esta es la única variable de entorno requerida por la aplicación.
-
-⚠️ Si no se configura la API key o la cuota está excedida,  
-la aplicación funcionará automáticamente en modo demo.
+Si no se configura la API key o la cuota está excedida,
+la aplicación funciona automáticamente en modo demo.
 
 ### 4. Ejecutar el servidor:
 
