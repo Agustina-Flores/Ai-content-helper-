@@ -1,0 +1,1 @@
+export type Action = "summarize" | "improve" | "ideas";

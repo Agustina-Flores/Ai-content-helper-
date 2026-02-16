@@ -8,7 +8,6 @@ export default function TextForm() {
   const [text, setText] = useState("");
   const [action, setAction] = useState<Action>("summarize");
   const [result, setResult] = useState(""); 
-  const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const [demoMode, setDemoMode] = useState(false);  
   const MAX_LENGTH = 2000;
@@ -54,7 +53,7 @@ export default function TextForm() {
       />
       {!text.trim() && (
         <p className="helper-text">
-          Ingresá texto para generar una respuesta.
+          Escribí o pegá un texto para comenzar.
         </p>
       )}
       {text.trim() && (
